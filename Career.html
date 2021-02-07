@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Profile of KDH</title>
+  <meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Raleway:wght@500&display=swap" rel="stylesheet">
+<style>
+    body{
+      margin:0;
+    }
+    .title{
+        text-align: center;
+        font-size:500%;
+        color:white;
+        font-family: 'Raleway', sans-serif;
+        background-image:url(titleimg1.jpg);
+        background-size:cover;
+        padding:200px;
+    }
+    .selection{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+        font-size:200%;
+        font-family: 'Raleway', sans-serif;
+        padding:0;
+        height:85px;
+    }
+    .selectionbutton{
+        background-color:gray;
+        padding:20px;
+        font-size:35px;
+        transition:all .4s linear;
+    }
+    .selectionbutton:hover{
+        background-color:rgba(128, 128, 128, 0.459);
+        font-size:38px;
+        transition:all .4s linear;
+    }
+
+    div {
+	animation: fadein 1s;
+    }
+    @keyframes fadein {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+    .Introduction{
+        display:grid;
+        grid-template-columns: 1fr 3fr;
+        font-size:200%;
+        text-align:center;
+    }
+
+    .menu{
+        padding-top:30px;
+        background-color: rgba(128, 128, 128, 0.459);
+    }
+
+    .info{
+        padding-top:20px;
+        padding-left:30px;
+        text-align:left;
+    }
+    
+    .menubutton{
+        font-size:30px;
+        transition:all .2s linear;
+    }
+
+    .menubutton:hover{
+        font-size:33px;
+        transition:all .2s linear;
+    }
+
+
+
+
+
+</style>
+</head>
+
+<body>
+    <div class="title">
+        <div>
+            Profile
+        </div>
+    </div>
+    <div class="selection">
+        <div class="selectionbutton" style="cursor:pointer", onclick="location.href='Introduction_Intro.html';">Introduction</div>
+        <div class="selectionbutton" style="cursor:pointer", onclick="location.href='Career.html';">Career</div>
+        <div class="selectionbutton" style="cursor:pointer", onclick="location.href='Blog.html';">Blog</div>
+        <div class="selectionbutton" style="cursor:pointer", onclick="location.href='Gallery.html';">Gallery</div>
+    </div>
+    <div class="Introduction">
+        <div class="menu">
+            <p><a href="Introduction_Intro.html" class="menubutton" style="text-decoration:none; color:black;">Intro</a></p>
+            <p><a href="Introduction_Aboutme.html" class="menubutton" style="text-decoration:none; color:black;">About me</a></p>
+            <p><a href="Introduction_Contact.html" class="menubutton" style="text-decoration:none; color:black;">Contact</a></p>
+        </div>
+        <div class="info">
+            <p>Career</p>
+            <p>Career</p>
+            <p>Career</p>
+            <p>Career</p>
+            <p>Career</p>
+            <p>Career</p>
+            <p>Career</p>
+            <p>Career</p>
+            <p>Career</p>
+            <p>Career</p>
+            <p>Career</p>
+            <p>Career</p>
+            <p>Career</p>
+            <p>Career</p>
+            <p>Career</p>
+            <p>Career</p>
+        </div>
+    </div>
+</body>
+
+</html>
